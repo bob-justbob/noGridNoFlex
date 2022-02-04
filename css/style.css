@@ -1,0 +1,321 @@
+* {
+    margin: 0%;
+    height: 0%;
+    box-sizing: border-box;
+}
+body {
+    width: 100%;
+    height: 150vh;
+}
+
+header {
+    width: 100%;
+    height: 200px;
+    color: black;
+    color: white;
+}
+
+
+.drop {
+    display: none;
+    width: 100%;
+    height: 150px;
+    background-color: rgb(33, 37, 41);
+}
+.about {
+    width: 800px;
+    height: 150px;
+    background-color: rgb(33, 37, 41);
+}
+.contact {
+    width: 200px;
+    height: 150px;
+}
+.something {
+    width: 80%;
+    height: 150px;
+    margin-left: 10%;
+}
+
+.info div {
+    float: left;
+}
+
+.about {
+    padding: 10px;
+}
+.about h2 {
+    margin-bottom: 30px;
+}
+.contact {
+    padding: 10px;
+}
+
+.contact h1 {
+    margin-bottom: 40px;
+}
+.contact ul li {
+    
+    margin-bottom: 30px;
+}
+
+.hed {
+    float: left;
+    width: 100%;
+    height: 50px;
+    background-color: rgb(33, 37, 41);
+}
+
+.content {
+    width: 80%;
+    height: 50px;
+    margin: auto;
+}
+
+
+img {
+    width: 50px;
+    height: 50px;
+    position: relative;
+}
+
+.image {
+    width: 10px;
+    height: 50px;
+    float: left;
+}
+
+.why {
+    width: 200px;
+    height: 50px;
+    margin-left: 20px;
+    float: right;
+    position: absolute;
+    margin-left: 3%;
+    align-items: center;
+}
+
+.move {
+    float: right;
+    width: 50px;
+    height: 50px;
+    background-color: darkgray;
+    border: 2px solid darkblue;
+    align-items: center;
+    cursor: pointer;
+    transition: all .5s ease-in-out;
+}
+
+.dont {
+    width: 50px;
+    height: 6px;
+    background: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(255, 101, 47, .2);
+}
+
+.dont::after, .dont::before {
+    content: '';
+    /* position: absolute; */
+    width: 50px;
+    height: 6px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(255, 101, 47, .2);
+    
+}
+
+.dont::before {
+    transform: translateY(-16px);
+}
+
+.dont::before {
+    transform: translateY(16px);
+}
+
+
+
+.move:hover {
+    background-color: blue;
+}
+
+.here {
+    width: 80%;
+    height: 300px;
+    /* background-color: gray; */
+    margin-top: 2%;
+    margin-left: 8%;
+    box-sizing: content-box;
+}
+.here h2 {
+    width: 100%;
+    height: 30px;
+    text-align: center;
+    font-size: 2.4em;
+    font-weight: 100;
+}
+
+.here p {
+    width: 600px;
+    text-align: center;
+    max-width: 100%;
+    font-size: 20px;
+    margin-left: 30%;
+    margin-top: 20px;
+    color: gray;
+}
+.action {
+    width: 100%;
+    height: 30px;
+    margin-top: 100px;
+    text-align: center;
+}
+
+.omg {
+    margin-left: 5px;
+    font-size: 1.4em;
+    text-decoration: none;
+    background-color: blue;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.second {
+    background-color: #495057;
+    margin-left: 5px;
+    font-size: 1.4em;
+    text-decoration: none;
+    background-color: blue;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+a:hover, a:focus {
+    background-color: darkblue;
+    cursor: pointer;
+}
+
+.second:hover, .second:focus {
+    background: #212529;
+    cursor: pointer;
+}
+
+section {
+    width: 100%;
+    height: 110vh;
+    position: relative;
+    background-color: rgb(248, 249, 250);
+}
+
+.maincont {
+    width: 80%;
+    height: 1000px;
+    align-items: center;
+    position: absolute;
+    margin-top: 30px;
+    margin-left: 10%;
+}
+
+.box {
+    height: 300px;
+    width: 400px;
+    float: left;
+    margin-top: 20px;
+    margin-left: 80px;
+    border: 1px hidden gray;
+    padding: 1px;
+    box-shadow:  4px 2px 2px 4px #888888;
+}
+
+.boximg {
+    width: 100%;
+    height: 190px;
+    background-color: rgb(85, 89, 92);
+    text-align: center;
+    padding: 5px;
+}
+.boximg h1 {
+    padding-top: 80px;
+}
+
+.paragraf {
+    width: 100%;
+    height: 80px;
+    padding: 5px;
+}
+
+.paragraf p {
+    font-size: 1.2em;
+    padding: 5px ;
+}
+.view {
+    width: 50%;
+    float: left;
+    height: 30px;
+
+    margin-bottom: 100%;
+    padding-bottom: 10px;
+}
+ 
+.view p {
+    float: left;
+    padding: 1px;
+    font-size: 20px;
+    border:  1px solid gray;
+    height: 25px;
+    margin-bottom: 10px;
+    margin-left: 5px;
+    color: gray;
+    
+}
+
+.view p:hover {
+    background-color: gray;
+    color: white;
+}
+
+.minit {
+    width: 50%;
+
+    float: right;
+    height: 30px;
+}
+
+.minit p {
+    float: right;
+    color: gray;
+    padding: 5px;
+}
+
+
+footer {
+    width: 100%;
+    height: 100px;
+   display: inline-block;
+   background-color: rgba(0, 0, 0, 0);
+}
+
+.one {
+    width: 100%;
+    height: 200px;
+}
+
+
+.back {
+    float: right;
+    height: 50px;
+    margin-right: 20px;
+    margin-top: 20px;
+    background-color: white;
+}
+
+.back:hover {
+    background-color: white;
+}
+
+footer p {
+    width: 100%;
+    height: 20px;
+    padding: 10px;
+}
