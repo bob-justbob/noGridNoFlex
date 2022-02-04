@@ -319,3 +319,45 @@ footer p {
     height: 20px;
     padding: 10px;
 }
+
+@media (max-width: 1629px){
+    section {
+        height: 200vh;
+    }
+}
+
+@media (max-width: 1200px) {
+    section {
+        width: 100%;
+    }
+    .maincont {
+        width: 100%;
+        margin: 0%;
+
+    }
+    .box {
+        width: 20%;
+        height: 45vh;
+    }
+    .paragraf p {
+        font-size: 1.1em;
+    }
+    .paragraf {
+        margin-bottom: 40%;
+    }
+    .view {
+        margin-top: 15%;
+    }
+}
+@media (max-width: 560px){
+    .box {
+        width: 100%;
+        margin: 0%;
+    }
+    .maincont {
+        margin: 0%;
+    }
+    .paragraf p {
+        margin-bottom: 0%;
+    }
+}
