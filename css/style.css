@@ -2,6 +2,7 @@
     margin: 0%;
     height: 0%;
     box-sizing: border-box;
+    list-style: none;
 }
 body {
     width: 100%;
@@ -30,6 +31,9 @@ header {
 .contact {
     width: 200px;
     height: 150px;
+}
+.contact h1 {
+    padding-left: 35px;
 }
 .something {
     width: 80%;
@@ -187,7 +191,6 @@ img {
     margin-left: 5px;
     font-size: 1.4em;
     text-decoration: none;
-    background-color: blue;
     color: white;
     padding: 10px;
     border-radius: 10px;
